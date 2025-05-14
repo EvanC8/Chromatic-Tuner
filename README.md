@@ -13,7 +13,7 @@ Inspired by the guitar tuning apps I use daily, this project was created to expe
       <ul>
         <li><a href="#User-Interface">User Interface</a></li>
         <li><a href="#Microphone-Input-Processing">Microphone Input Processing</a></li>
-        <li><a href="#Musical Application">Musical Application</a></li>
+        <li><a href="#Musical-Application">Musical Application</a></li>
       </ul>
     </li>
     <li><a href="#next-steps">Next Steps</a></li>

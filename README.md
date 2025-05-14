@@ -1,8 +1,7 @@
 # Natural♮ | Mobile Chromatic Tuner
-This app was created to experiment with audio signal processing as it pertains to musical pitch tuning.  
-<br>
-<img src="https://github.com/EvanC8/chromatic-Tuner/blob/main/Demos/demo1.PNG?raw=true" width="200">
-<img src="https://github.com/EvanC8/chromatic-Tuner/blob/main/Demos/demo3.PNG?raw=true" width="200">
+Inspired by the guitar tuning apps I use daily, this project was created to experiment with audio signal processing through the lens of musical pitch tuning. What began as a simple idea—detecting pitch from a phone’s microphone input—quickly turned into a deep dive into the quite exciting complexities of frequency analysis. The result is a versatile and simplistic chromatic tuner, designed to recognize pitches across a wide range of instruments tuned on the Western enharmonic system. I've included the app's views and helper classes (written in Swift for iOS) in this repo. An overview of the app's core processes can also be found below. Hope you enjoy!
+
+<img src="https://github.com/EvanC8/chromatic-Tuner/blob/main/Demos/demo1.PNG?raw=true" width="200"> <img src="https://github.com/EvanC8/chromatic-Tuner/blob/main/Demos/demo3.PNG?raw=true" width="200">
 <br>
 
 <!-- TABLE OF CONTENTS -->
@@ -12,10 +11,8 @@ This app was created to experiment with audio signal processing as it pertains t
     <li>
       <a href="#how-it-works">How it works</a>
       <ul>
-        <li><a href="#Microphone-Input-Filtering">Microphone Input Filtering</a></li>
-        <li><a href="#Fast-Fourier-Transform">Fast Fourier Transform</a></li>
-        <li><a href="#Frequency-Estimation">Frequency Estimation</a></li>
-        <li><a href="#Musical-Interpretation">Musical Interpretation</a></li>
+        <li><a href="#Microphone-Input-Processing">Microphone Input Processing</a></li>
+        <li><a href="#Musical Application">Musical Application</a></li>
       </ul>
     </li>
     <li><a href="#next-steps">Next Steps</a></li>

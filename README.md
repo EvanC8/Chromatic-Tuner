@@ -54,7 +54,7 @@ $$ \text{Ideal Frequency} = 440 * 2^{\frac{\text{Note Number} - 69}{12}} $$
 
 Now, for any given input frequency, its target note can be identified along with its corresponding ideal frequency. The last thing needed is to calculate the distance—or error—between the input frequency and the ideal frequency. A standardized way to express this distance in music is using the unit of cents, which can be calculated as follows. As the name implies, there are 100 cents separating every semitone:
 
-$$ \text{Cents} = round[1200 * log_{2}(\frac{\text{freqency}}{\text{ideal frequency}})] $$
+$$ \text{Cents} = round[1200 * log_{2}(\frac{\text{frequency}}{\text{ideal frequency}})] $$
 
 Now, the input frequency can be mapped to an angle along the semitone wheel, and the calculated cents can be used to determine whether the frequency is reasonably in tune with the calculated target note. All of the musical formulas mentioned here are implemented in `AudioProcessor.swift`
 

@@ -56,7 +56,7 @@ Now, for any given input frequency, its target note can be identified along with
 
 $$ \text{Cents} = round[1200 * log_{2}(\frac{\text{freqency}}{\text{ideal frequency}})] $$
 
-Now, the input frequency can be mapped to an angle along the semitone wheel, and the calculated cents can be used to determine whether the frequency is reasonably in tune with the calculated target note.
+Now, the input frequency can be mapped to an angle along the semitone wheel, and the calculated cents can be used to determine whether the frequency is reasonably in tune with the calculated target note. All of the musical formulas mentioned here are implemented in `AudioProcessor.swift`
 
 
 # Next Steps

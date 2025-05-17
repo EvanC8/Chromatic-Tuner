@@ -3,7 +3,11 @@ Inspired by the guitar tuning apps I use daily, this project was created to expe
 
 > **Note:** If downloading the app files, make sure to add the appropriate key to `Info.plist` in your XCode project to request the user's permission to access the microphone.
 
-
+# Download for iOS 18.0+
+```
+https://apps.apple.com/us/app/natural-tune/id6745803612
+```
+# Demos
 <img src="https://github.com/EvanC8/chromatic-Tuner/blob/main/Demos/demo2.PNG?raw=true" width="200"> <img src="https://github.com/EvanC8/chromatic-Tuner/blob/main/Demos/demo1.PNG?raw=true" width="200"> <img src="https://github.com/EvanC8/chromatic-Tuner/blob/main/Demos/demo3.PNG?raw=true" width="200">
 <br>
 
